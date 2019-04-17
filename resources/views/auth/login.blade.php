@@ -11,9 +11,9 @@
         <link rel="shortcut icon" href="{{ asset('backend/images/favicon.ico') }}">
 
         <!-- App css -->
-        <link href="{{ asset('public/backend/css/icons.min.css') }}" rel="stylesheet" type="text/css" />
-        <link href="{{ asset('public/backend/css/app.min.css') }}" rel="stylesheet" type="text/css" />
-        <link href="{{ asset('public/backend/css/main.css') }}" rel="stylesheet" type="text/css" />
+        <link href="{{ asset('backend/css/icons.min.css') }}" rel="stylesheet" type="text/css" />
+        <link href="{{ asset('backend/css/app.min.css') }}" rel="stylesheet" type="text/css" />
+        <link href="{{ asset('backend/css/main.css') }}" rel="stylesheet" type="text/css" />
 
     </head>
 
@@ -70,7 +70,7 @@
         <!-- end auth-fluid-->
 
         <!-- App js -->
-        <script src="{{ asset('public/backend/js/app.min.js') }}"></script>
+        <script src="{{ asset('backend/js/app.min.js') }}"></script>
 
     </body>
 
