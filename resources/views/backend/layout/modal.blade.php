@@ -6,7 +6,7 @@
     function showAjaxModal(url, header)
     {
     // SHOWING AJAX PRELOADER IMAGE
-    jQuery('#right-modal .modal-body').html('<div style="text-align:center;margin-top:200px;"><img src="{{ asset('backend/images/loader.gif') }}" style="height:25px;" /></div>');
+    jQuery('#right-modal .modal-body').html('<div style="text-align:center;margin-top:200px;"><img src="{{ asset('public/backend/images/loader.gif') }}" style="height:25px;" /></div>');
     jQuery('#right-modal .modal-title').html('...');
     // LOADING THE AJAX MODAL
     jQuery('#right-modal').modal('show', {backdrop: 'true'});

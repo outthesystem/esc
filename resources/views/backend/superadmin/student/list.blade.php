@@ -15,9 +15,9 @@
                             <td>{{ $student->student->code }}</td>
                             <td>
                                 @if (file_exists('backend/images/student_image/'.$student->id.'.jpg'))
-                                    <img src="{{ asset('backend/images/student_image/'.$student->id.'.jpg') }}" alt="" height="50">
+                                    <img src="{{ asset('public/backend/images/student_image/'.$student->id.'.jpg') }}" alt="" height="50">
                                 @else
-                                    <img src="{{ asset('backend/images/student_image/preview.jpg') }}" alt="" height="50">
+                                    <img src="{{ asset('public/backend/images/student_image/preview.jpg') }}" alt="" height="50">
                                 @endif
                             </td>
                         <td>{{ $student->student->user->name }}</td>
@@ -38,7 +38,7 @@
     </div>
 @else
     <div style="text-align: center;">
-        <img src="{{ asset('backend/images/empty_box.png') }}" alt="" class="empty-box">
+        <img src="{{ asset('public/backend/images/empty_box.png') }}" alt="" class="empty-box">
         <p>{{ translate('no_data_found') }}</p>
     </div>
 @endif

@@ -28,7 +28,7 @@
                         <!-- Logo -->
                         <div class="auth-brand text-center text-lg-left">
                             <a href="index.html">
-                                <span><img src="{{ asset('backend/images/logo-dark.png') }}" alt="" height="18"></span>
+                                <span><img src="{{ asset('public/backend/images/logo-dark.png') }}" alt="" height="18"></span>
                             </a>
                         </div>
 

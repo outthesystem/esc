@@ -48,9 +48,9 @@
                         aria-expanded="false">
                         <span class="account-user-avatar">
                             @if (file_exists('backend/images/user_image/'.Auth::user()->id.'.jpg'))
-                                <img src="{{ asset('backend/images/user_image/'.Auth::user()->id.'.jpg') }}" alt="user-image" class="rounded-circle">
+                                <img src="{{ asset('public/backend/images/user_image/'.Auth::user()->id.'.jpg') }}" alt="user-image" class="rounded-circle">
                             @else
-                                <img src="{{ asset('backend/images/avatar.jpg') }}" alt="user-image" class="rounded-circle">
+                                <img src="{{ asset('public/backend/images/avatar.jpg') }}" alt="user-image" class="rounded-circle">
                             @endif
                         </span>
                         <span>

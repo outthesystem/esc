@@ -10,9 +10,9 @@
         <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12">
             <div class="text-center">
                 @if (file_exists('backend/images/student_image/'.$student_details->id.'.jpg'))
-                    <img src="{{ asset('backend/images/student_image/'.$student_details->id.'.jpg') }}" alt="" height="150" width="150">
+                    <img src="{{ asset('public/backend/images/student_image/'.$student_details->id.'.jpg') }}" alt="" height="150" width="150">
                 @else
-                    <img src="{{ asset('backend/images/student_image/preview.jpg') }}" alt="" height="150" width="150">
+                    <img src="{{ asset('public/backend/images/student_image/preview.jpg') }}" alt="" height="150" width="150">
                 @endif
                 <div> <span style="font-weight: bold;">{{ translate('name') }}: </span> {{ $student_details->user->name }} </div>
                 <div> <span style="font-weight: bold;">{{ translate('student_code') }}: </span> {{ $student_details->code }} </div>
